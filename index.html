@@ -1,12 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>Hexa-Line</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexa-Line | Proje Yönetimi</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* Arka planı koyu gri yaptık, şık dursun */
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1000px; /* Resimlerin maksimum genişliği */
+            margin: 0 auto; /* Sayfayı ortalar */
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5); /* Hafif gölge efekti */
+        }
+        img {
+            display: block; /* Resimler arasında boşluk kalmasın */
+            width: 100%; /* Resim ekranı tam kaplasın */
+            height: auto; /* Oran bozulmasın */
+        }
+        /* Mobilde ve PC'de düzgün görünmesi için */
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>Hexa-Line'a Hos Geldiniz</h1>
-        <p>Sitemiz yapim asamasindadir.</p>
-    </center>
+
+    <div class="container">
+        <img src="1.jpg" alt="Sayfa 1">
+        <img src="2.jpg" alt="Sayfa 2">
+        <img src="3.jpg" alt="Sayfa 3">
+        <img src="4.jpg" alt="Sayfa 4">
+        <img src="5.jpg" alt="Sayfa 5">
+        <img src="6.jpg" alt="Sayfa 6">
+        <img src="7.jpg" alt="Sayfa 7">
+        <img src="8.jpg" alt="Sayfa 8">
+        <img src="9.jpg" alt="Sayfa 9">
+    </div>
+
 </body>
 </html>
